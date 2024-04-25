@@ -1,5 +1,4 @@
-The purpose of this readme is to documentate how to set up an Active Director, Domain Controller, DHCP, DNS on a windows server through the CLI. 
-using GUI. <br> 
+The purpose of this readme is to documentate how to set up an Active Director, Domain Controller, DHCP, DNS on a windows server using GUI. <br> 
 
 https://www.youtube.com/watch?v=joIubWzQ6P8 <br>
 https://www.youtube.com/watch?v=8teMFArShR8 <br>
