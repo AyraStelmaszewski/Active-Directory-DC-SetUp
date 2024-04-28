@@ -6,7 +6,45 @@ SConfig
 ========================================================================================== <br>
 
 # Write-up
+1) Rename the computer
+Rename-Computer -NewName "NewComputerName" -Restart
+2) Assign static IP to the server
+New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress "192.168.0.2" -PrefixLength 24 -DefaultGateway "192.168.0.1"
+3)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - Rename Server
 Rename-Computer -NewName dc01
 
