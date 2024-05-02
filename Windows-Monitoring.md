@@ -3,7 +3,7 @@ The purpose of this readme is to reference fews windows monitoring tools with ex
 ## Sysmon <br>
 
 ================================================================================================= <br>
-**sources**
+*sources* <br>
 https://syedhasan010.medium.com/sysmon-how-to-setup-configure-and-analyze-the-system-monitors-events-930e9add78d <br>
 ================================================================================================= <br>
 Due to active development of the project, newer artifacts and evidence sources are constantly being added to Sysmon’s capabilities. 
