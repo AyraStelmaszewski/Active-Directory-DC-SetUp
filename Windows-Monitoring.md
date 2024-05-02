@@ -26,3 +26,19 @@ However, you can get a quick idea on how Sysmon can aid you in identifying anoma
 ### Find logs using GUI
 
 ==>  eventvwr.msc ==> Applications and Services ==> Microsoft ==> Windows ==> Sysmon ==> Operational 
+
+### Create config file 
+
+Since we haven't create a config file during our installation we'll do it now. <br>
+
+- First we need to know our sysmon version
+```powershell
+Sysmon64.exe -? config
+```
+- Configuration file are .xml so let's create one.
+- Structure of config file should be written in that way :
+```powershell
+<Sysmon schemaversion="4.90">
+   ...
+</Sysmon>
+```
