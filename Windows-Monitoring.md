@@ -42,3 +42,9 @@ Sysmon64.exe -? config
    ...
 </Sysmon>
 ```
+- Then we should specify our hash algorithms
+```powershell
+<Sysmon schemaversion="4.90">
+   <HashAlgorithms>md5,sha256,IMPHASH</HashAlgorithms>
+</Sysmon>
+```
