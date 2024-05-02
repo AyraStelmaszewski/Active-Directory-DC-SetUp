@@ -17,12 +17,12 @@ However, you can get a quick idea on how Sysmon can aid you in identifying anoma
 - File modification — Identify changes in file creation times, a technique most commonly utilized by attackers to avoid detection
 - Kernel-mode malware, rule filtering based on False Positives, session identification, correlations, and much more!
 
-# Important points 
+### Important points 
 
 - Sysmon work in pair with a configuration file. If not created, there is the default one used.
 - Network are not monitored by default
 - Process image are hashed in SHA-1
 
-# Find logs using GUI
+#### Find logs using GUI
 
 ==>  eventvwr.msc ==> Applications and Services ==> Microsoft ==> Windows ==> Sysmon ==> Operational 
