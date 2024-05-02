@@ -1,6 +1,6 @@
 The purpose of this readme is to reference fews windows monitoring tools with explaination. 
 
-## Sysmon <br>
+# Sysmon <br>
 
 ================================================================================================= <br>
 *sources* <br>
@@ -23,6 +23,6 @@ However, you can get a quick idea on how Sysmon can aid you in identifying anoma
 - Network are not monitored by default
 - Process image are hashed in SHA-1
 
-#### Find logs using GUI
+### Find logs using GUI
 
 ==>  eventvwr.msc ==> Applications and Services ==> Microsoft ==> Windows ==> Sysmon ==> Operational 
